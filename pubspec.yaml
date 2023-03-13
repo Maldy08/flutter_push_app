@@ -1,13 +1,15 @@
 name: flutter_push_app
 description: A new Flutter project.
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=2.19.2 <3.0.0'
+  sdk: ">=2.19.2 <3.0.0"
 
 dependencies:
   equatable: ^2.0.5
+  firebase_core: ^2.7.1
+  firebase_messaging: ^14.2.6
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.2
